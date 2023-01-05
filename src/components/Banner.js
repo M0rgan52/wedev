@@ -1,7 +1,11 @@
 import "../styles/Banner.css";
 
 function Banner() {
-    return (<h1>WeDev</h1>)
+  return (
+    <header className="wedev_banner">
+      <h1>WeDev</h1>
+    </header>
+  );
 }
 
-export default Banner
+export default Banner;
