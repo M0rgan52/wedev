@@ -1,7 +1,11 @@
-import Banner from './Banner';
+import Banner from "./Banner";
 
 function App() {
-  return <Banner />
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 }
 
 export default App;
