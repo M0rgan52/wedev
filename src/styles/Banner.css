@@ -1,7 +1,37 @@
+header {
+  font-family: "Courgette", cursive;
+}
 
 .wedev_banner {
-    color: black;
-    text-align: right;
-    padding: 32px;
-    border-bottom: solid 3px black;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: solid 3px black;
+}
+
+.banner_img {
+  height: 75px;
+}
+
+.banner_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.banner_list li {
+  margin: 0 10px;
+  transition: transform 400ms ease-out;
+}
+
+.banner_list li:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.banner_list li:active {
+  color: #86A8B3;
+  cursor: pointer;
 }
