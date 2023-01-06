@@ -6,10 +6,10 @@ function Banner() {
     <header className="wedev_banner">
       <img src={logo} alt="Logo WeDev" />
       <ul>
-        <li><a>A propos</a></li>
-        <li><a>Portofolio</a></li>
-        <li><a>Skills</a></li>
-        <li><a>Contact</a></li>
+        <li><a href={undefined}>A propos</a></li>
+        <li><a href={undefined}>Portofolio</a></li>
+        <li><a href={undefined}>Skills</a></li>
+        <li><a href={undefined}>Contact</a></li>
       </ul>
     </header>
   );
