@@ -1,0 +1,29 @@
+.career {
+    display: flex;
+    justify-content: space-around;
+}
+
+.career-1 {
+    border: rgba(255, 249, 242, 0.2) ridge 5px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    margin-top: -60px;
+    background-color: #FFF9F2;
+    height: 400px;
+}
+
+.career-2 {
+    border: rgba(242, 252, 255, 0.2) ridge 5px;
+    margin-top: 10px;
+    background-color: #F2FCFF;
+    height: 400px;
+}
+
+.career-3 {
+    border: rgba(134, 168, 179, 0.2) ridge 5px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-top: 70px;
+    background-color: #86A8B3;
+    height: 400px;
+}
