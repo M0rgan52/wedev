@@ -1,7 +1,7 @@
 import About from "./About";
 import Banner from "./Banner";
-import Career from './Career';
-import Portofolio from './Portofolio';
+import Career from "./Career";
+import Portofolio from "./Portofolio";
 
 function App() {
   return (

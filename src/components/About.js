@@ -4,7 +4,11 @@ import "../styles/About.css";
 function About() {
   return (
     <div className="about">
-      <img src={ImgAbout} alt="Elément de présentation d'un homme en train de coder sur un ordinateur portable. Crédit Lukas" className="about_img" />
+      <img
+        src={ImgAbout}
+        alt="Elément de présentation d'un homme en train de coder sur un ordinateur portable. Crédit Lukas"
+        className="about_img"
+      />
       <article id="about" className="about_description">
         Je m'appelle Morgan Strohl et mon savoir faire englobe la création, la
         maintenance et la mise à jour de site internet, de vos logiciel et de la
