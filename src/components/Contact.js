@@ -10,16 +10,22 @@ function Contact() {
       <a
         href={"https://www.linkedin.com/in/morgan-strohl/"}
         rel="noreferrer"
-        target="_blank">
+        target="_blank"
+        className="icon_contact">
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
-      <a href={"https://github.com/M0rgan52"} rel="noreferrer" target="_blank">
+      <a
+        href={"https://github.com/M0rgan52"}
+        rel="noreferrer"
+        target="_blank"
+        className="icon_contact">
         <FontAwesomeIcon icon={faGithub} />
       </a>
       <a
         href={"mailto:contact.wedev@gmail.com"}
         rel="noreferrer"
-        target="_blank">
+        target="_blank"
+        className="icon_contact">
         <FontAwesomeIcon icon={faEnvelope} />
       </a>
     </div>
