@@ -6,7 +6,7 @@ header {
   color: black;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 35px;
 }
 
 .banner_img {
@@ -33,4 +33,9 @@ header {
 .banner_list li:active {
   color: #86A8B3;
   cursor: pointer;
+}
+
+.banner_list li a {
+  color: black;
+  text-decoration: none;
 }
