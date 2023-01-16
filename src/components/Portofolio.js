@@ -3,7 +3,7 @@ import ImgOMFood from "../assets/omfood_portofolio.PNG";
 
 function Portofolio() {
   return (
-    <div className="box_parent_portofolio">
+    <div className="box_parent_portofolio" id="portofolio">
       <a href={undefined} className="link_portofolio">
         <figure>
           <img

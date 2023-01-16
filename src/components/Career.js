@@ -2,7 +2,7 @@ import "../styles/Career.css"
 
 function Career() {
     return (
-        <div className="career">
+        <div className="career" id="about">
             <article className="career-1">
                 <h2>Développeur Web Freelance</h2>
                 <p>Je créé vos projets from scratch ou je reprends vos projets actuels</p>
