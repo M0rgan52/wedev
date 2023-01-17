@@ -60,3 +60,9 @@ header {
   background: rgb(179,165,152);
   background: linear-gradient(211deg, rgba(179,165,152,1) 0%, rgba(242,252,255,1) 100%); 
 }
+
+.switch_box {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
