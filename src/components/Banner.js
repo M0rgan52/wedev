@@ -11,6 +11,7 @@ function Banner() {
         <li  className="banner_contact"><a href="#contact">Contact</a></li>
         <label className="banner_switch">
           <input type="checkbox" name="contrast" className="switch_box"/>
+          <span className="switch_btn"></span>
         </label>
       </ul>
     </header>
