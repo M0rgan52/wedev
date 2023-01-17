@@ -50,3 +50,13 @@ header {
   text-decoration: none;
   font-size: larger;
 }
+
+.banner_switch {
+  border: #FFF9F2 2px solid;
+  border-radius: 20px;
+  width: 45px;
+  height: 15px;
+  margin-left: 15px;
+  background: rgb(179,165,152);
+  background: linear-gradient(211deg, rgba(179,165,152,1) 0%, rgba(242,252,255,1) 100%); 
+}
