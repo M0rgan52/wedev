@@ -25,8 +25,18 @@ header {
   transition: transform 400ms ease-out;
 }
 
-.banner_list li:hover {
-  transform: scale(1.05);
+.banner_about:hover {
+  transform: translate(-8%, 8%);
+  cursor: pointer;
+}
+
+.banner_portofolio:hover {
+  transform: translate(0, 8%);
+  cursor: pointer;
+}
+
+.banner_contact:hover {
+  transform: translate(8%, 8%);
   cursor: pointer;
 }
 
@@ -38,4 +48,5 @@ header {
 .banner_list li a {
   color: black;
   text-decoration: none;
+  font-size: larger;
 }
