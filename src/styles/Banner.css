@@ -1,6 +1,6 @@
 header {
   font-family: "Courgette", cursive;
-  background: #FFF9F2;
+  background: #fff9f2;
 }
 
 .wedev_banner {
@@ -42,7 +42,7 @@ header {
 }
 
 .banner_list li:active {
-  color: #86A8B3;
+  color: #86a8b3;
   cursor: pointer;
 }
 
@@ -53,13 +53,17 @@ header {
 }
 
 .banner_switch {
-  border: #FFF9F2 2px solid;
+  border: #fff9f2 2px solid;
   border-radius: 20px;
   width: 45px;
   height: 15px;
   margin-left: 15px;
-  background: rgb(179,165,152);
-  background: linear-gradient(211deg, rgba(179,165,152,1) 0%, rgba(242,252,255,1) 100%); 
+  background: rgb(179, 165, 152);
+  background: linear-gradient(
+    211deg,
+    rgba(179, 165, 152, 1) 0%,
+    rgba(242, 252, 255, 1) 100%
+  );
 }
 
 .switch_box {
@@ -79,10 +83,38 @@ header {
   content: "";
   display: block;
   border: white solid 2px;
-  border-radius: 100%;
+  border-radius: 150px;
   height: 1.2em;
-  width: 1.2em;
+  width: 3em;
   margin: 0;
-  background: rgb(242,252,255);
-  background: radial-gradient(circle, rgba(242,252,255,1) 44%, rgba(255,255,255,1) 100%); 
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgb(242, 252, 255);
+  background: radial-gradient(
+    circle,
+    rgba(242, 252, 255, 1) 44%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.switch_btn::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  display: block;
+  border: rgba(254, 255, 0, 0.8) solid 1px;
+  border-radius: 100%;
+  height: 1.1em;
+  width: 1.1em;
+  margin: 0;
+  background: rgb(254, 255, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(254, 255, 0, 1) 0%,
+    rgba(202, 226, 0, 1) 82%
+  );
+}
+
+.switch_box:checked + .switch_btn::after {
+  transform: translate(100%, 0) rotate(180deg);
 }
