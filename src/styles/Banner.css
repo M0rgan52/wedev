@@ -74,7 +74,7 @@ header {
 
 .switch_btn {
   position: relative;
-  top: -4px;
+  top: -8px;
   left: -4px;
   cursor: pointer;
 }
@@ -84,42 +84,46 @@ header {
   display: block;
   border: white solid 2px;
   border-radius: 150px;
-  height: 1.2em;
-  width: 3em;
+  height: 1.8em;
+  width: 3.2em;
   margin: 0;
-  transition: background 100ms cubic-bezier(0.29, 0.42, 1, 0) 50ms;
-  background: rgb(242, 252, 255)
-    radial-gradient(
-      circle,
-      rgba(242, 252, 255, 1) 44%,
-      rgba(255, 255, 255, 1) 100%
+  transition: background 100ms ease-in 50ms;
+  background: rgb(255, 249, 242)
+    linear-gradient(
+      90deg,
+      rgba(255, 249, 242, 1) 0%,
+      rgba(205, 198, 191, 1) 35%,
+      rgba(175, 169, 162, 1) 100%
     );
-}
-
-.switch_box:checked + .switch_btn::before {
-  background: rgb(23, 11, 122)
-    radial-gradient(circle, rgba(23, 11, 122, 1) 34%, rgba(21, 25, 182, 1) 100%);
 }
 
 .switch_btn::after {
   content: "";
   position: absolute;
-  top: 1.5px;
-  left: 4px;
+  top: 2px;
+  left: 1.5px;
   display: block;
-  border: rgba(254, 255, 0, 0.8) solid 1px;
   border-radius: 100%;
-  height: 1.1em;
-  width: 1.1em;
+  height: 1.8em;
+  width: 1.8em;
   margin: 0;
-  background: rgb(254, 255, 0)
-    linear-gradient(45deg, rgba(254, 255, 0, 1) 0%, rgba(202, 226, 0, 1) 82%);
-  transition: transform 150ms cubic-bezier(0.29, 0.42, 1, 0);
+  background: rgb(255, 227, 0)
+    linear-gradient(
+      90deg,
+      rgba(254, 255, 0, 1) 0%,
+      rgba(217, 206, 22, 1) 65%,
+      rgba(255, 227, 0, 1) 100%
+    );
+  transition: transform 500ms ease-in, background 150ms ease-in;
 }
 
 .switch_box:checked + .switch_btn::after {
-  transform: translate(125%) rotate(180deg);
-  border: rgb(0, 0, 0) solid 1px;
+  transform: translate(77%) rotate(180deg);
   background: rgb(0, 0, 0)
-    radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(132, 133, 125, 1) 81%);
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(60, 40, 22, 1) 35%,
+      rgba(161, 102, 34, 1) 100%
+    );
 }
