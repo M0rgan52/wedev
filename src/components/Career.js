@@ -106,7 +106,7 @@ function Career() {
           Je développe le visuel de votre site internet ou de vos applications
         </p>
         <h3>Langages :</h3>
-        <ul>
+        <ul className="list_career">
           <li>HTML</li>
           <li>CSS</li>
           <li>SASS</li>
@@ -121,7 +121,7 @@ function Career() {
           au bon fonctionnement du votre projet
         </p>
         <h3>Langages :</h3>
-        <ul>
+        <ul className="list_career">
           <li>JavaScript</li>
           <li>Node</li>
           <li>Express</li>
