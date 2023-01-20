@@ -1,27 +1,7 @@
 .about {
-    display: flex;
-    justify-content: space-around;
-    padding: 150px 15px 180px 15px;
-    background: #B3A598 ;
-   
-}
-
-.about_img {
-    display: flex;
-    width: 30%;
-    align-items: center;
-    justify-content: center;
-    border: inset #F2FCFF 10px;
-    border-radius: 10px;
-}
-
-.about_description {
-    display: flex;
-    align-items: center;
-    width: 45%;
-    font-size: x-large;
-    font-weight: 500;
-    line-height: 40px;
-
-   
+  height: 50em;
+  width: 100%;
+  background: border-box url("../assets/Photo_about_v1.jpg") center no-repeat;
+  background-size: cover;
+  opacity: 0.75;
 }
