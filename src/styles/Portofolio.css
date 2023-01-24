@@ -1,8 +1,17 @@
+.titre_portofolio {
+  font-size: xx-large;
+  margin-top: 50px;
+  padding: 8px;
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
 .box_parent_portofolio {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .link_portofolio {

@@ -5,9 +5,9 @@ function Portofolio() {
   return (
     <div>
 
-      <h2 className="titre_portofolio" >Portofolio</h2>
+      <h2 id="portofolio" className="titre_portofolio" >Portofolio</h2>
 
-      <div className="box_parent_portofolio" id="portofolio">
+      <div className="box_parent_portofolio">
         <a href={undefined} className="link_portofolio">
           <figure>
             <img
