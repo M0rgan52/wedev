@@ -19,6 +19,23 @@
   width: 450px;
   height: 450px;
   margin: 20px;
+
+}
+
+.link_portofolio::before {
+  content: "";
+  background-color: #86a8b3;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+
+}
+
+.link_portofolio:hover::before {
+  opacity: 0.7;
+
 }
 
 .link_portofolio figure {
@@ -35,6 +52,4 @@
   margin: 0;
 }
 
-.link_portofolio:hover {
-  opacity: 0.8;
-}
+
