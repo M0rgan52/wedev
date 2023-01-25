@@ -1,4 +1,7 @@
 import "../styles/Portofolio.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ImgOMFood from "../assets/omfood_portofolio.PNG";
 
 function Portofolio() {
@@ -10,6 +13,12 @@ function Portofolio() {
       <div className="box_parent_portofolio">
         <a href={undefined} className="link_portofolio">
           <figure>
+            <article className="text_portofolio">
+              <h3>Oh my food</h3>
+              <p>Site de réservation dans des restaurants gastronomique</p>
+              <FontAwesomeIcon icon={faHtml5} />
+              <FontAwesomeIcon icon={faCss3} />
+            </article>
             <img
               src={ImgOMFood}
               alt="Illustration du site Oh My Food"
