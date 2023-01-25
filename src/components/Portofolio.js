@@ -1,7 +1,8 @@
 import "../styles/Portofolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faJs } from "@fortawesome/free-brands-svg-icons";
 import ImgOMFood from "../assets/omfood_portofolio.PNG";
+import ImgLapanthere from "../assets/lapanthere_portofolio.png";
 
 function Portofolio() {
   return (
@@ -28,9 +29,16 @@ function Portofolio() {
 
         <a href={undefined} className="link_portofolio">
           <figure>
+          <article className="text_portofolio">
+              <h3>Agence La Panthère</h3>
+              <p>Site d'une agence Web design</p>
+              <FontAwesomeIcon icon={faHtml5} className="icon_portofolio html5"/>
+              <FontAwesomeIcon icon={faCss3} className="icon_portofolio css3" />
+              <FontAwesomeIcon icon={faJs} className="icon_portofolio js" />
+            </article>
             <img
-              src={ImgOMFood}
-              alt="Illustration du site Oh My Food"
+              src={ImgLapanthere}
+              alt="Illustration du site Agence la Panthère"
               className="img_portofolio"
             />
           </figure>

@@ -46,6 +46,7 @@
 
 .text_portofolio {
   position: absolute;
+  width: 350px;
   top: 100px;
   padding: 50px;
   color: white;
@@ -73,6 +74,10 @@
 
 .css3 {
   color: #2C6780;
+}
+
+.js {
+  color: #EFD81D;
 }
 
 .img_portofolio {
