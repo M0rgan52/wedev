@@ -16,8 +16,8 @@
 
 .link_portofolio {
   position: relative;
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   margin: 20px;
 
 }
@@ -26,8 +26,8 @@
   content: "";
   background-color: #86a8b3;
   position: absolute;
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   opacity: 0;
   transition: opacity 500ms ease-in-out;
 
@@ -46,8 +46,8 @@
 
 .text_portofolio {
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   padding: 100px 50px 0 50px;
   color: white;
   text-align: center;
@@ -60,12 +60,12 @@
 }
 
 .text_portofolio h3 {
-  text-shadow: black 2px 2px 2px;
+  text-shadow: #86a8b3 2px 2px 2px;
 }
 
 .text_portofolio p {
   text-align: center;
-  text-shadow: black 1px 1px 2px;
+  text-shadow: #86a8b3 1px 1px 2px;
 }
 
 .icon_portofolio {
@@ -90,8 +90,8 @@
 }
 
 .img_portofolio {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   overflow: hidden;
   object-fit: cover;
   margin: 0;
