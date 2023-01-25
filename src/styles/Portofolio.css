@@ -47,8 +47,8 @@
 .text_portofolio {
   position: absolute;
   width: 350px;
-  top: 100px;
-  padding: 50px;
+  height: 350px;
+  padding: 100px 50px 0 50px;
   color: white;
   text-align: center;
   opacity: 0;
@@ -59,8 +59,13 @@
   opacity: 1;
 }
 
+.text_portofolio h3 {
+  text-shadow: black 2px 2px 2px;
+}
+
 .text_portofolio p {
   text-align: center;
+  text-shadow: black 1px 1px 2px;
 }
 
 .icon_portofolio {
