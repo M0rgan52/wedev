@@ -15,7 +15,7 @@ function Footer() {
             icon={faCopyright}
             className="footer_copyright"></FontAwesomeIcon>
           <span> </span> 2023 - Morgan Strohl <br />
-          Mentions légales - SIREN 947 872 644
+          <a href="">Mentions légales</a>
         </p>
       </div>
     </div>
