@@ -19,7 +19,6 @@
   width: 400px;
   height: 400px;
   margin: 20px;
-
 }
 
 .link_portofolio::before {
@@ -30,12 +29,10 @@
   height: 400px;
   opacity: 0;
   transition: opacity 500ms ease-in-out;
-
 }
 
 .link_portofolio:hover::before {
   opacity: 0.8;
-
 }
 
 .link_portofolio figure {
@@ -74,19 +71,19 @@
 }
 
 .html5 {
-  color: #F16528;
+  color: #f16528;
 }
 
 .css3 {
-  color: #2C6780;
+  color: #2c6780;
 }
 
 .js {
-  color: #EFD81D;
+  color: #efd81d;
 }
 
 .react {
-  color: #6ECFED;
+  color: #6ecfed;
 }
 
 .img_portofolio {
@@ -96,5 +93,3 @@
   object-fit: cover;
   margin: 0;
 }
-
-

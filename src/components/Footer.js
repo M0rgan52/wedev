@@ -10,10 +10,13 @@ function Footer() {
         <img src={Logo} alt="Logo WeDev" className="footer_img" />
       </a>
       <div className="footer_name">
-        <FontAwesomeIcon
-          icon={faCopyright}
-          className="footer_copyright"></FontAwesomeIcon>
-        <p> - 2023 - Morgan Strohl</p>
+        <p>
+          <FontAwesomeIcon
+            icon={faCopyright}
+            className="footer_copyright"></FontAwesomeIcon>
+          <span> </span> 2023 - Morgan Strohl <br />
+          Mentions légales - SIREN 947 872 644
+        </p>
       </div>
     </div>
   );

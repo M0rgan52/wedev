@@ -3,7 +3,7 @@ import Banner from "./Banner";
 import Career from "./Career";
 import Portofolio from "./Portofolio";
 import Contact from "./Contact";
-import Footer from './Footer';
+import Footer from "./Footer";
 
 function App() {
   return (

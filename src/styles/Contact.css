@@ -1,30 +1,29 @@
 .contact {
-    margin-top: 150px;
-    margin-bottom: 100px;
-    text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .contact h4 {
-    font-size: x-large;
-    font-family: "Courgette", cursive;
+  font-size: x-large;
+  font-family: "Courgette", cursive;
 }
 
 .icon_contact {
-    margin: 0 30px;
-    font-size: 2.5em;
-    color: black;
-    transition: all 600ms ease-out;
-
+  margin: 0 30px;
+  font-size: 2.5em;
+  color: black;
+  transition: all 600ms ease-out;
 }
 
 .icon_linkedin:hover {
-    color: #0A66C2;
+  color: #0a66c2;
 }
 
 .icon_github:hover {
-    color: #24292F;
+  color: #24292f;
 }
 
 .icon_mail:hover {
-    color: #AE1F1C;
+  color: #ae1f1c;
 }
