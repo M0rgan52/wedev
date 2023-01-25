@@ -16,8 +16,8 @@ function Portofolio() {
             <article className="text_portofolio">
               <h3>Oh my food</h3>
               <p>Site de réservation dans des restaurants gastronomique</p>
-              <FontAwesomeIcon icon={faHtml5} />
-              <FontAwesomeIcon icon={faCss3} />
+              <FontAwesomeIcon icon={faHtml5} className="icon_portofolio"/>
+              <FontAwesomeIcon icon={faCss3} className="icon_portofolio" />
             </article>
             <img
               src={ImgOMFood}
