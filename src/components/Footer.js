@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer">
-      <a href="#home">
+      <Link to={`/`}>
         <img src={Logo} alt="Logo WeDev" className="footer_img" />
-      </a>
+      </Link>
       <div className="footer_name">
         <p>
           <FontAwesomeIcon

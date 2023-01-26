@@ -1,21 +1,22 @@
 import "../styles/Banner.css";
 import logo from "../assets/WeDev_v1.png";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
     <header id="home" className="wedev_banner">
-      <a href="#home">
+      <Link to={`/`}>
         <img src={logo} alt="Logo WeDev" className="banner_img" />
-      </a>
+      </Link>
       <ul className="banner_list">
         <li className="banner_about">
-          <a href="#about">A propos</a>
+          <Link to={`/#about`}>A propos</Link>
         </li>
         <li className="banner_portofolio">
-          <a href="#portofolio">Portofolio</a>
+          <Link to={`/#portofolio`}>Portofolio</Link>
         </li>
         <li className="banner_contact">
-          <a href="#contact">Contact</a>
+          <Link to={`/#contact`}>Contact</Link>
         </li>
         <label className="banner_switch">
           <input type="checkbox" name="contrast" className="switch_box" />
