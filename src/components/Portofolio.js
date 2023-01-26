@@ -8,6 +8,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import ImgOMFood from "../assets/omfood_portofolio.PNG";
 import ImgLapanthere from "../assets/lapanthere_portofolio.png";
+import ImgPiiquante from "../assets/piiquante_portofolio.PNG";
+import ImgGroupomania from "../assets/groupomania_portofolio.PNG";
 
 function Portofolio() {
   return (
@@ -56,7 +58,7 @@ s
           </figure>
         </a>
 
-        <a href={undefined} className="link_portofolio">
+        {/* <a href={undefined} className="link_portofolio">
           <figure>
             <article className="text_portofolio">
               <h3>Kanap</h3>
@@ -74,7 +76,7 @@ s
               className="img_portofolio"
             />
           </figure>
-        </a>
+        </a> */}
 
         <a href={undefined} className="link_portofolio">
           <figure>
@@ -89,7 +91,7 @@ s
               <FontAwesomeIcon icon={faJs} className="icon_portofolio js" />
             </article>
             <img
-              src={undefined}
+              src={ImgPiiquante}
               alt="Illustration du site Piiquante"
               className="img_portofolio"
             />
@@ -113,7 +115,7 @@ s
               />
             </article>
             <img
-              src={undefined}
+              src={ImgGroupomania}
               alt="Illustration du réseau social interne Groupomania"
               className="img_portofolio"
             />
