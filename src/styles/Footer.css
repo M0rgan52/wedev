@@ -27,3 +27,8 @@
 .footer_img {
   height: 75px;
 }
+
+.lien {
+  color: black;
+  text-decoration: none;
+}

@@ -16,7 +16,7 @@ function Footer() {
             icon={faCopyright}
             className="footer_copyright"></FontAwesomeIcon>
           <span> </span> 2023 - Morgan Strohl <br />
-          <Link to={`legalnotice`}> Mentions légales </Link>
+          <Link to={`legalnotice`} className="lien"> Mentions légales </Link>
         </p>
       </div>
     </div>
