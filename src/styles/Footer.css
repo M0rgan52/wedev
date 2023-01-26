@@ -1,6 +1,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding: 20px;
   background: rgb(179, 165, 152);
   background: linear-gradient(
@@ -8,11 +11,13 @@
     rgba(179, 165, 152, 1) 21%,
     rgba(255, 255, 255, 1) 75%
   );
+  z-index: 5;
 }
 
 .footer_name {
   display: flex;
   align-items: center;
+  padding-right: 50px;
 }
 
 .footer_name p {
