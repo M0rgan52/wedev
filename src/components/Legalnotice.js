@@ -1,4 +1,6 @@
 import "../styles/Legalnotice.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 function PageLegalNotice() {
   return (
@@ -22,7 +24,7 @@ function PageLegalNotice() {
       </p>
       <h2>Propriété intellectuelle</h2>
       <p className="texte_legal">
-        Photo d'illustration de la page d'accueil: libre de droit, photo prise
+        <FontAwesomeIcon icon={faGreaterThan}></FontAwesomeIcon> Photo d'illustration de la page d'accueil: libre de droit, photo prise
         par Lukas et mis à disposition sur le site pexels
       </p>
       <h2>Hébergement du site</h2>
