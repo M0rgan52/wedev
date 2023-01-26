@@ -2,6 +2,7 @@ import "../styles/Footer.css";
 import Logo from "../assets/WeDev_v1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -15,7 +16,7 @@ function Footer() {
             icon={faCopyright}
             className="footer_copyright"></FontAwesomeIcon>
           <span> </span> 2023 - Morgan Strohl <br />
-          <a href="">Mentions légales</a>
+          <a href=""><Link to={`legalnotice`}> Mentions légales </Link></a>
         </p>
       </div>
     </div>
