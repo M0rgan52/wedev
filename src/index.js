@@ -6,6 +6,7 @@ import App from "./components/App";
 import ErrorPage from "./error-page";
 import reportWebVitals from "./reportWebVitals";
 import LegalNotice from "./routes/legal";
+import Groupomania from './routes/groupomania';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,12 @@ const router = createBrowserRouter([
     path: "legalnotice",
     element: <LegalNotice />,
   },
+
+  {
+    path: "groupomania",
+    element: <Groupomania />,
+  },
+  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
