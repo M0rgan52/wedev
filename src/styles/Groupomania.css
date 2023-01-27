@@ -1,0 +1,40 @@
+.section_box_top {
+  padding: 5rem 5rem 0 5rem;
+  box-shadow: grey 0px 0px 5px;
+  margin-bottom: 200px;
+}
+
+.box_top {
+  display: flex;
+  padding: 0 50px;
+}
+
+.description_top {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-right: 5rem;
+}
+
+.titre_top {
+  text-align: center;
+}
+
+.subtitle_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: lightgrey 1px solid;
+}
+
+.text_top {
+  text-align: justify;
+}
+
+.box_img_top {
+  height: 450px;
+}
+
+.img_top {
+  height: 450px;
+}
