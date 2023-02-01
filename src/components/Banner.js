@@ -18,10 +18,10 @@ function Banner() {
         <li className="banner_contact">
           <Link to={`/#contact`}>Contact</Link>
         </li>
-        <label className="banner_switch">
+        {/* <label className="banner_switch">
           <input type="checkbox" name="contrast" className="switch_box" />
           <span className="switch_btn"></span>
-        </label>
+        </label> */}
       </ul>
     </header>
   );
