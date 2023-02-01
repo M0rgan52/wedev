@@ -20,7 +20,7 @@ function Portofolio() {
       </h2>
 s
       <div className="box_parent_portofolio">
-        <a href={undefined} className="link_portofolio">
+        <a href={`ohmyfood`} className="link_portofolio">
           <figure>
             <article className="text_portofolio">
               <h3>Oh my food</h3>
@@ -39,7 +39,7 @@ s
           </figure>
         </a>
 
-        <a href={undefined} className="link_portofolio">
+        <a href={`agencelapanthere`} className="link_portofolio">
           <figure>
             <article className="text_portofolio">
               <h3>Agence La Panthère</h3>
@@ -79,7 +79,7 @@ s
           </figure>
         </a> */}
 
-        <a href={undefined} className="link_portofolio">
+        <a href={`piiquante`} className="link_portofolio">
           <figure>
             <article className="text_portofolio">
               <h3>Piiquante</h3>
